@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1385316878 source:c:\users\carmen\documents\tec\2015 segundo semestre\analisis de algoritmos\algoritmo genético\main.cpp
+	<iostream>
+
+1444102145 source:c:\users\carmen\documents\tec\2015 segundo semestre\analisis de algoritmos\algoritmo genético\src\algoritmo.cpp
+	"Algoritmo.h"
+
+1444105883 c:\users\carmen\documents\tec\2015 segundo semestre\analisis de algoritmos\algoritmo genético\include\algoritmo.h
+	<iostream>
+
