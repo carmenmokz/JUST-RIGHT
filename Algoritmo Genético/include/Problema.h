@@ -22,6 +22,7 @@ class Problema
 class VertexCover: public Problema
 {
     public:
+        //MODIFICARLO CON GETLINE getline(cin, str, '') pide el dato en consola, variable donde se guarda, delimitador
         void readProblema(){
             ifstream enarchivo;
             enarchivo.open("cromosoma.txt");
