@@ -8,3 +8,22 @@
 1444105883 c:\users\carmen\documents\tec\2015 segundo semestre\analisis de algoritmos\algoritmo genético\include\algoritmo.h
 	<iostream>
 
+1444102145 source:c:\users\carmen\documents\github\just-right\algoritmo genético\src\algoritmo.cpp
+	"Algoritmo.h"
+
+1444105883 c:\users\carmen\documents\github\just-right\algoritmo genético\include\algoritmo.h
+	<iostream>
+
+1444105635 source:c:\users\carmen\documents\github\just-right\algoritmo genético\src\problema.cpp
+	"Problema.h"
+
+1444180879 c:\users\carmen\documents\github\just-right\algoritmo genético\include\problema.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+
+1444180745 source:c:\users\carmen\documents\github\just-right\algoritmo genético\main.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+
