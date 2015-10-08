@@ -11,19 +11,24 @@
 1444102145 source:c:\users\carmen\documents\github\just-right\algoritmo genético\src\algoritmo.cpp
 	"Algoritmo.h"
 
-1444105883 c:\users\carmen\documents\github\just-right\algoritmo genético\include\algoritmo.h
+1444281493 c:\users\carmen\documents\github\just-right\algoritmo genético\include\algoritmo.h
 	<iostream>
+	<fstream>
+	<string>
+	<Problema.h>
 
 1444105635 source:c:\users\carmen\documents\github\just-right\algoritmo genético\src\problema.cpp
 	"Problema.h"
 
-1444180879 c:\users\carmen\documents\github\just-right\algoritmo genético\include\problema.h
+1444282338 c:\users\carmen\documents\github\just-right\algoritmo genético\include\problema.h
 	<iostream>
 	<fstream>
+	<string>
 	<stdlib.h>
 
-1444180745 source:c:\users\carmen\documents\github\just-right\algoritmo genético\main.cpp
+1444281885 source:c:\users\carmen\documents\github\just-right\algoritmo genético\main.cpp
 	<iostream>
 	<fstream>
-	<stdlib.h>
+	<string>
+	<Problema.h>
 

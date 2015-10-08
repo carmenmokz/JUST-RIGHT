@@ -1,6 +1,9 @@
 #ifndef ALGORITMO_H
 #define ALGORITMO_H
 #include <iostream>
+#include <fstream>
+#include <string>
+#include <Problema.h>
 
 using namespace std;
 
@@ -13,13 +16,19 @@ class Algoritmo
 {
     protected:
     private:
-        bool politica;
-        int numCruces;
-        double mutacion;
-        int tamPoblacion;
+        bool politica; //Seleccion
+        int numCruces; //cruce 1. 2 o más puntos
+        double mutacion; //porcentaje de mutación
+        int tamPoblacion; //tamaño de la poblacion
     public:
         Algoritmo();
         virtual ~Algoritmo();
+        void Problem(){}
+        int resetPoblacion(){}
+        string readPoblacion(){}
+        string writePoblacion(){}
+        void generacion(){}
+        int getBest(){}
 };
 
 #endif // ALGORITMO_H
