@@ -32,3 +32,40 @@
 	<string>
 	<Problema.h>
 
+1445417198 source:c:\users\yorleydemaría\documents\github\just-right\algoritmo genético\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"Problema.h"
+
+1445444708 c:\users\yorleydemaría\documents\github\just-right\algoritmo genético\include\problema.h
+	<iostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	<sstream>
+	"graph.h"
+
+1444754947 source:c:\users\yorleydemaría\documents\github\just-right\algoritmo genético\src\algoritmo.cpp
+	"Algoritmo.h"
+
+1444754947 c:\users\yorleydemaría\documents\github\just-right\algoritmo genético\include\algoritmo.h
+	<iostream>
+	<fstream>
+	<string>
+	<Problema.h>
+
+1445419592 source:c:\users\yorleydemaría\documents\github\just-right\algoritmo genético\src\problema.cpp
+	"Problema.h"
+
+1445444706 c:\users\yorleydemaría\documents\github\just-right\algoritmo genético\include\graph.h
+	<cstddef>
+	<cstdlib>
+	<ctime>
+	<math.h>
+	"AList.h"
+
+1445411673 c:\users\yorleydemaría\documents\github\just-right\algoritmo genético\include\alist.h
+	<stdexcept>
+	<iostream>
+

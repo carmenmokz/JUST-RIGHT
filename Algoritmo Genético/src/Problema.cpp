@@ -5,7 +5,4 @@ Problema::Problema()
     //ctor
 }
 
-Problema::~Problema()
-{
-    //dtor
-}
+

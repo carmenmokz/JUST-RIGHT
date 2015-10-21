@@ -34,8 +34,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/AList.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="include/Algoritmo.h" />
 		<Unit filename="include/Problema.h" />
+		<Unit filename="include/graph.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Algoritmo.cpp" />
 		<Unit filename="src/Problema.cpp" />
