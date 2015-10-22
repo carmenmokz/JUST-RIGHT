@@ -17,20 +17,23 @@
 	<string>
 	<Problema.h>
 
-1444105635 source:c:\users\carmen\documents\github\just-right\algoritmo genético\src\problema.cpp
+1445546383 source:c:\users\carmen\documents\github\just-right\algoritmo genético\src\problema.cpp
 	"Problema.h"
 
-1444282338 c:\users\carmen\documents\github\just-right\algoritmo genético\include\problema.h
+1445547236 c:\users\carmen\documents\github\just-right\algoritmo genético\include\problema.h
 	<iostream>
 	<fstream>
 	<string>
 	<stdlib.h>
+	<sstream>
+	"graph.h"
+	"AdjacencyMatrix.h"
 
-1444281885 source:c:\users\carmen\documents\github\just-right\algoritmo genético\main.cpp
+1445546383 source:c:\users\carmen\documents\github\just-right\algoritmo genético\main.cpp
 	<iostream>
 	<fstream>
 	<string>
-	<Problema.h>
+	"Problema.h"
 
 1445417198 source:c:\users\yorleydemaría\documents\github\just-right\algoritmo genético\main.cpp
 	<iostream>
@@ -68,4 +71,20 @@
 1445411673 c:\users\yorleydemaría\documents\github\just-right\algoritmo genético\include\alist.h
 	<stdexcept>
 	<iostream>
+
+1445546383 c:\users\carmen\documents\github\just-right\algoritmo genético\include\graph.h
+	<cstddef>
+	<cstdlib>
+	<ctime>
+	<math.h>
+	"AList.h"
+
+1445546383 c:\users\carmen\documents\github\just-right\algoritmo genético\include\alist.h
+	<stdexcept>
+	<iostream>
+
+1445546818 c:\users\carmen\documents\github\just-right\algoritmo genético\include\adjacencymatrix.h
+	<iostream>
+	<fstream>
+	<cstdlib>
 

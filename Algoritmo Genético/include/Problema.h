@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <sstream>
 #include "graph.h"
+#include "AdjacencyMatrix.h"
 
 
 using namespace std;
@@ -93,7 +94,7 @@ class VertexCover: public Problema
             }
 
         }
-        void assingData(){
+        /*void assingData(){
             problemType= paramsData[0];
             for (int i=0; i!=paramsData[2]; i++){
 
@@ -102,7 +103,7 @@ class VertexCover: public Problema
             M=atoi((paramsData[2]).c_str()); //cantAristas
             K=atoi((paramsData[3]).c_str());
         //falta el 5to param!!
-        }
+        }*/
         int geneSize(){}
         double fitness(){}
         void name(){}
@@ -127,20 +128,6 @@ class VertexCover: public Problema
                 puts("no se pudo crear");
             }
         }
-
-//        void createGraph(int u){
-//            Grafo *graph = new Grafo(u);
-//            int total;
-//            total++;                                //aumento en mi respuesta la caida de un domino
-//            bool visitado;
-//            visitado[u] = true;                   //domino "u" cayo
-//            for( int v = 0 ; v < graph[ u ].size(); ++v ){ //verifico los demas posibles domino que caeran si impulso "u"
-//                    if( !visitado[ graph[ u ][ v ] ] ){         //si el domino adyacente no cayó entonces es el siguiente a evaluar
-//                        createGraph( graph[ u ][ v ] );               //recursivamente veo que dominos caeran a partir del adyacente de "u"
-//                        }
-//            }
-//        }
-
 
 };
 
