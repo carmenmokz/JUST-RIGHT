@@ -95,6 +95,9 @@ class VertexCover: public Problema
         }
         void assingData(){
             problemType= paramsData[0];
+            for (int i=0; i!=paramsData[2]; i++){
+
+            }
             N=atoi((paramsData[1]).c_str()); //cantVertices
             M=atoi((paramsData[2]).c_str()); //cantAristas
             K=atoi((paramsData[3]).c_str());
@@ -125,7 +128,18 @@ class VertexCover: public Problema
             }
         }
 
-
+//        void createGraph(int u){
+//            Grafo *graph = new Grafo(u);
+//            int total;
+//            total++;                                //aumento en mi respuesta la caida de un domino
+//            bool visitado;
+//            visitado[u] = true;                   //domino "u" cayo
+//            for( int v = 0 ; v < graph[ u ].size(); ++v ){ //verifico los demas posibles domino que caeran si impulso "u"
+//                    if( !visitado[ graph[ u ][ v ] ] ){         //si el domino adyacente no cayó entonces es el siguiente a evaluar
+//                        createGraph( graph[ u ][ v ] );               //recursivamente veo que dominos caeran a partir del adyacente de "u"
+//                        }
+//            }
+//        }
 
 
 };
